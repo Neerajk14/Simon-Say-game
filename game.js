@@ -58,7 +58,7 @@ function checkAns(idx) {
     console.log("This is the last highest score", highestscore);
     h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any key to Restart.`;
     let span =document.querySelector("span");
-    span.innerHTML=`The Previous Highest score was ${highestscore} . `;
+    span.innerHTML=`The Highest score was ${highestscore} . `;
     reset();
   }
 }
